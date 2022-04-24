@@ -8,4 +8,5 @@ abstract class WilayahEvent extends Equatable {
   List<Object> get props => [];
 }
 
+// event (input)
 class GetWilayahList extends WilayahEvent {}

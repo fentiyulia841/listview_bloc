@@ -6,10 +6,13 @@ import 'package:area_api/resources/wilayah_repository.dart';
 part 'wilayah_event.dart';
 part 'wilayah_state.dart';
 
+// import model class, repository class
+// put all logics here
 class WilayahBloc extends Bloc<WilayahEvent, WilayahState> {
   WilayahBloc() : super(WilayahInitial()) {
     final WilayahRepository _wilayahRepository = WilayahRepository();
 
+    // event/input from wilayah_event
     on<GetWilayahList>((event, emit) async {
       try {
         emit(WilayahLoading());

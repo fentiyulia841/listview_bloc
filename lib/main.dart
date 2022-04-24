@@ -1,3 +1,4 @@
+import 'package:area_api/pages/area_page.dart';
 import 'package:flutter/material.dart';
 import 'package:area_api/pages/wilayah_page.dart';
 

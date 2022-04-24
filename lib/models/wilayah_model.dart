@@ -1,24 +1,5 @@
 class WilayahModel {
-  // String? name;
-  // String? error;
-  // List<Value>? _values;
 
-  // WilayahModel({
-  //   this.name,
-  // });
-  // WilayahModel.withError(String errorMessage) {
-  //   error = errorMessage;
-  // }
-
-  // WilayahModel.fromJson(Map<String, dynamic> json) {
-  //   name = json["value"]['name'];
-  // }
-
-  // Map<String, dynamic> toJson(){
-  //   return {
-  //     'name' : name,
-  //   };
-  // }
   String? error;
   List<Value>? values;
 

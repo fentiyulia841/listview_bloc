@@ -4,6 +4,7 @@ import 'wilayah_provider.dart';
 class WilayahRepository {
   final _provider = WilayahProvider();
 
+  
   Future<WilayahModel> fetchWilayahList() {
     return _provider.fetchWilayahList();
   }

@@ -10,7 +10,7 @@ abstract class WilayahState extends Equatable {
   @override
   List<Object?> get props => [];
 }
-
+// response
 class WilayahInitial extends WilayahState {}
 
 class WilayahLoading extends WilayahState {}

@@ -13,12 +13,16 @@ class WilayahPage extends StatefulWidget {
 
 class _WilayahPageState extends State<WilayahPage> {
   final WilayahBloc _areaBloc = WilayahBloc();
+  final WilayahModel model = WilayahModel();
 
   @override
   void initState() {
     _areaBloc.add(GetWilayahList());
     super.initState();
+    print(model);
   }
+
+  
 
   @override
   Widget build(BuildContext context) {
