@@ -19,7 +19,7 @@ class _WilayahPageState extends State<WilayahPage> {
   void initState() {
     _areaBloc.add(GetWilayahList());
     super.initState();
-    print(model);
+    print(GetWilayahList());
   }
 
   

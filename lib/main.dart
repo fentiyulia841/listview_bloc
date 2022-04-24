@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Area List",
       debugShowCheckedModeBanner: false,
-      home: WilayahPage(),
+      home: AreaPage(),
     );
   }
 }
